@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️‍🩹VERY SPECIAL WORD FOR YOU</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ::selection {
+            background-color: rgba(105, 183, 187, 0.704);
+        }
+
+        body {
+            height: 130.5vh;
+            background: url("pink-backgorund.jpg");
+            opacity: 0.71;
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: cover;
+            object-fit: cover;
+        }
+
+        .all-body-part {
+            padding: 7px 10px;
+            height: 130.5vh;
+            background-color: rgb(254, 142, 161);
+            width: 112.9%;
+        }
+
+
+        .box {
+            border: 2px dashed rgb(241, 52, 83);
+            height: 110vh;
+            border-radius: 10px;
+        }
+
+        .heading {
+            text-align: center;
+        }
+
+        .heading h2 {
+            color: rgb(221, 5, 41);
+            text-decoration: underline;
+            font-family: "poppins", Arial, Helvetica, sans-serif;
+            font-style: italic;
+            font-weight: bolder;
+            text-shadow: 2px 2px 1px rgba(58, 1, 1, 0.612);
+        }
+
+        .letter-first-part {
+            padding: 36px 0px 0px 10px;
+        }
+
+        .letter-first-part h4 {
+            color: rgb(254, 53, 87);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+
+        .letter-second-part .first {
+            padding: 8px 0px 0px 70px;
+            color: rgb(252, 24, 24);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+        }
+
+        .letter-second-part .second {
+            padding: 8px 0px 0px 50px;
+            font-style: italic;
+            color: rgb(221, 5, 41);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 600;
+        }
+
+        .letter-second-part .third {
+            padding: 0px 0px 0px 8px;
+            font-style: italic;
+            color: rgb(221, 5, 41);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 600;
+
+        }
+
+        .letter-second-part .fourth {
+            padding-top: 5px;
+            text-align: center;
+            font-style: italic;
+            color: rgb(221, 5, 41);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 700;
+        }
+
+        .letter-second-part .fifth {
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 7px;
+            padding-right: 12px;
+            font-style: italic;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 800;
+            color: rgb(221, 5, 41);
+            text-shadow: 2px 2px 1.5px rgba(128, 0, 0, 0.666);
+        }
+
+        .footer-heading {
+            text-align: center;
+            font-size: 10px;
+            padding-top: 8px;
+            font-style: italic;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            color: rgb(155, 0, 26);
+            border: 2px dashed rgb(245, 27, 63);
+            border-radius: 10px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 15px;
+            padding-bottom: 12px;
+        }
+
+        .button a .special-button {
+            text-decoration: none;
+            padding: 10px 55px 10px 55px;
+            border: 2px solid rgb(244, 20, 57);
+            background: linear-gradient(100deg, pink, rgb(248, 111, 134), rgb(250, 73, 102));
+            border-radius: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            font-size: 1.3rem;
+            color: rgb(111, 3, 21);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .button .special-button:active {
+           color: rgb(0, 0, 0);
+           background: linear-gradient(100deg,white,pink,rgb(247, 153, 153));
+            padding-right: 70px;
+            padding-left: 70px;
+            /* padding-top: 20px;
+            padding-bottom: 20px; */
+
+        }
+
+        .button button::before {
+            content: "❤️‍🩹";
+            position: absolute;
+            left: 52%;
+            font-size: 20px;
+            opacity: 0.4;
+            animation: floating 4s ease-in-out infinite alternate;
+        }
+
+        @keyframes floating {
+            0% {
+                transform: translateY(10px) rotateY(10deg);
+            }
+
+            100% {
+                transform: translateY(-13px) rotate(100deg);
+            }
+        }
+
+        .letter-second-part::after,
+        .letter-second-part::before {
+            content: "❤️‍🩹";
+            position: absolute;
+            font-size: 150px;
+            opacity: 0.2;
+            top: 40%;
+            left: 22%;
+            animation: floatheart 15s linear infinite alternate;
+
+        }
+
+        @keyframes floatheart {
+            0% {
+                transform: translateX(120px);
+            }
+
+            25% {
+                transform: translateY(-348px);
+            }
+
+            50% {
+                transform: translateX(-100px);
+            }
+
+            100% {
+                transform: translateY(366px);
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="all-body-part">
+        <div class="box">
+            <div class="heading">
+                <h2>KUTTUUUUU</h2>
+            </div>
+            <div class="letter-first-part">
+                <h4>PAGLUUU,</h4>
+            </div>
+            <div class="letter-second-part">
+                <p class="first">Suman</p>
+                <p class="second">
+                    sabse pahle to apne pyaarii si goluwaa
+                </p>
+                <p class="third">
+                    ko dil se "I LOVE YOU SOO MUCHH". mai yaha kuchh likhne yaa batane nahi aaya mai yaha
+                    bass aisee hi apne maan aurr dil ka baat likh daala abhi mai likh raha hu to sach kaah raha hu
+                    mujhe kuchh bhi samjh nahi aa raha ki mai kyaa likhuu kaun sa aisaa baat likhuu ki tum dekh ke padh
+                    ke khush ho jaao but mai jaanta hu ki mere banaye hue webuu-webuu ko dekh ke tum kaafi jyada khush
+                    huee hogee aurr meree khushi ke liye wahi bhutt hai. tum agar meree kiyee huee kaam se khush ho rahe
+                    ho suman to mai bhi bhutt khush hu aurr mai to hameshaa se tumhare sath khush hi hu hamesha apne
+                    suman ko khush dekhna chahta hu chahe samay kharab ho achha ho yaa kaisa bhi ho. haa but jaanta hu
+                    buree wakt me koi bhi khush nahi hotaa lekin ussi bure wakt me mai hamesha tumhare sath khada
+                    rahunga meri jaan yee meraa tumse "DIL SE PROMISE HAI"
+                    chalo baat khatam kuchh samajh aa hi nahi raha kyaa boluu saara dimag website ko sundar dikhane me
+                    kharch kaar diya😂😭. lekin haa jaanta hu tumhe ye dekh ke padh ke aur mere banaye hue webuu-webuu
+                    ko dekh ke kaafi khushi huii hogii suman. suman ek baar phir se bolta hu meri pyaari si goluwaaaaa
+                    ko dil se "I LOVE YOUU SOO SOO SOO SOO SOO MUCHH"
+                </p>
+                <p class="fourth">
+                    *KHAYAL RAKHNA APNA SUMAN☺️❤️‍🩹*
+                </p>
+                <p class="fifth">--ANKIT--</p>
+            </div>
+
+        </div>
+        <div class="footer-heading">
+            <h1>--YOUR ANKIT LOVES YOU SOO SOO SOO SOO SOO MUCHH--</h1>
+        </div>
+        <div class="button">
+            <a href="read.html">
+                <button class="special-button">Are you read more?</button>
+            </a>
+        </div>
+
+    </section>
+</body>
+
+</html>

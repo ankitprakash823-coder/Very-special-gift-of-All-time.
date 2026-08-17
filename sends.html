@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENDS TO YOUR GUHUWAAAAA</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        ::selection {
+            background-color: rgba(105, 183, 187, 0.704);
+        }
+
+        /* Animated Romantic Gradient Background */
+        body {
+            background: linear-gradient(450deg, rgb(245, 35, 70), rgb(247, 116, 138), rgb(241, 36, 70));
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Glassmorphism Success Card */
+        .sending {
+            background: rgba(0, 0, 0, 0.375);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 40px 30px;
+            border-radius: 24px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 450px;
+            width: 90%;
+            animation: floatIn 1s ease-out;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        @keyframes floatIn {
+            0% {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Icon Wrapper & Pulse Animation */
+        .icon-container {
+            width: 80px;
+            height: 80px;
+            background: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            animation: pulse 2s infinite;
+        }
+
+        .icon-container img {
+            width: 45px;
+            height: 45px;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+            }
+        }
+
+        /* Typography Styles */
+        .heading h2 {
+            color: #ffffff;
+            font-size: 24px;
+            margin-bottom: 8px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .heading p {
+            color: #fff0f5;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .status-text {
+            color: #ffffff;
+            font-size: 14px;
+            opacity: 0.9;
+            background: rgba(0, 0, 0, 0.15);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+
+        .couple-container {
+            position: absolute;
+            top: 124%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+            /* Keeps it on top of other content */
+            pointer-events: none;
+            /* Allows users to click through the background if needed */
+        }
+
+        /* Updated 80px Glowing Circle */
+        .glowing-circle {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background: rgba(11, 12, 16, 0.581);
+            /* Semi-transparent dark background inside */
+            border: 2px solid #ff4a5a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            pointer-events: auto;
+            /* Makes the circle itself clickable if you want to add a link */
+
+            /* Animations */
+            animation: pulseGlow 3s infinite ease-in-out;
+            box-shadow: 0 0 12px #4aeaff,
+                inset 0 0 8px #ff4a5a;
+        }
+
+        /* Scaled text for the smaller 80px size */
+        .initials {
+            font-family: 'Arial', sans-serif;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #ffffff;
+            letter-spacing: 1px;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+        }
+
+        /* Adjusted animation for a cleaner look at 80px */
+        @keyframes pulseGlow {
+
+            0%,
+            100% {
+                transform: scale(1);
+                box-shadow: 0 0 12px #358c8c, inset 0 0 8px #75ecf5;
+            }
+
+            50% {
+                transform: scale(1.08);
+                /* Slightly larger pop for mobile visibility */
+                box-shadow: 0 0 20px #ff7b93, inset 0 0 12px #6cf6f3;
+                border-color: #ff7b93;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="sending">
+
+        <!-- Animated Check Circle -->
+        <div class="icon-container">
+            <img src="check-sign.svg" alt="Success">
+        </div>
+
+        <!-- Main Love Message -->
+        <div class="heading">
+            <h2>THANKYOU SOO MUCH MERI SUMAN ❤️‍🩹☺️</h2>
+            <p>Love you soo muchh meri jaan meri goluwaaaaa</p>
+        </div>
+
+        <!-- Status Confirmation -->
+        <p class="status-text">Your words sent to your GUHUWAAAAA</p>
+        <div class="couple-container">
+            <div class="glowing-circle">
+                <div class="initials">
+                    sumankit❤️‍🩹☺️</div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
